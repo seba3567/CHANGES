@@ -1,4 +1,8 @@
-# 01/6/2020
+motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: active     
+
+
+
+# 01/6/2020 (no share)
 update fx sound from lake last build
 set permisions and minor cpu gov
 define gpu gov - ondemand
@@ -11,5 +15,5 @@ Merge tag 'LA.UM.8.2.r1-06900-sdm660.0' into dexk
 
 
 
-#30/05/2020 
+#30/05/2020 (share)
 Initial build
