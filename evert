@@ -2,10 +2,11 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 01/6/2020 (no share)
+# 02/6/2020 (private build) (02:10)
 update fx sound from lake last build
 set permisions and minor cpu gov
-define gpu gov - ondemand
+define gpu gov - msm-adreno-tz
+big cores set gov "interactive"
 fix perf missing file in last merge to 06700 (caf patch)
 evert defconfig : remove old config (reduce zip file )
 - evert 24.576MHz MCLK , (improve headphones quality (-13dB +8dB )
