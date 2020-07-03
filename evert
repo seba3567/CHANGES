@@ -2,8 +2,9 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 02/6/2020 (private build) (02:10)
+# 03/6/2020 (private build) (03:47)
 update fx sound from lake last build
+update vendor gpu drivers
 set permisions and minor cpu gov
 define gpu gov - msm-adreno-tz
 big cores set gov "interactive"
