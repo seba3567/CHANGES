@@ -2,10 +2,11 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 03/6/2020 (private build) (03:47)
+# 03/6/2020 (private build) (20:16)
 update fx sound from lake last build
 update vendor gpu drivers
 f2fs fix rare spam in dmesg in f2fs /data (cause rare spam in kernel)
+vendor codecs update last caf 
 set permisions and minor cpu gov
 define gpu gov - msm-adreno-tz
 big cores set gov "interactive"
