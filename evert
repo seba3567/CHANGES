@@ -2,7 +2,7 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 03/6/2020 (private build) (20:16)
+# 03/6/2020 (private build) (20:23)
 update fx sound from lake last build
 update vendor gpu drivers
 f2fs fix rare spam in dmesg in f2fs /data (cause rare spam in kernel)
@@ -16,6 +16,8 @@ evert defconfig : remove old config (reduce zip file )
 Merge tag 'LA.UM.8.2.r2-02100-sdm660.0' into dexk
 Merge tag 'LA.UM.8.2.r1-06900-sdm660.0' into dexk
 [experimental] Switch to QTI bt stack and enable a2dp offload
+-- Gps fix hal 
+-- Gps blobs update last caf patch
 
 
 
