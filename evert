@@ -2,7 +2,8 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 04/7/2020 (private build) (20:23)
+# 04/7/2020 (private build) (19:30)
+fix zygote memory leak 
 update fx sound from lake last build
 update vendor gpu drivers
 f2fs fix rare spam in dmesg in f2fs /data (cause rare spam in kernel)
