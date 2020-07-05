@@ -12,6 +12,10 @@ set permisions and minor cpu gov
 define gpu gov - msm-adreno-tz
 big cores set gov "interactive"
 fix perf missing file in last merge to 06700 (caf patch)
+- Enable hardware based FBE on f2fs
+- f2fs/fscrypt-ice: fix memory leak in read path
+- Update Inline Crypto Engine support for File based Encryption
+- f2fs,fscrypt,ice: fix direct IO patch for f2fs
 evert defconfig : remove old config (reduce zip file )
 - evert 24.576MHz MCLK , (improve headphones quality (-13dB +8dB )
 Merge tag 'LA.UM.8.2.r2-02100-sdm660.0' into dexk
