@@ -12,6 +12,8 @@ set permisions and minor cpu gov
 define gpu gov - msm-adreno-tz
 big cores set gov "interactive"
 fix perf missing file in last merge to 06700 (caf patch)
+remove : TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000 
+remove : BOARD_USE_LEGACY_UI := true
 - Enable hardware based FBE on f2fs
 - f2fs/fscrypt-ice: fix memory leak in read path
 - Update Inline Crypto Engine support for File based Encryption
