@@ -17,9 +17,6 @@ fix perf missing file in last merge to 06700 (caf patch)
 remove : TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000 
 remove : BOARD_USE_LEGACY_UI := true
 evert defconfig : remove old config (reduce zip file )
-- evert 24.576MHz MCLK , (improve headphones quality (-13dB +8dB )
-Merge tag 'LA.UM.8.2.r2-02100-sdm660.0' into dexk
-Merge tag 'LA.UM.8.2.r1-06900-sdm660.0' into dexk
 [experimental] Switch to QTI bt stack and enable a2dp offload
 -- Gps fix hal 
 -- Gps blobs update last caf patch
