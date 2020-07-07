@@ -21,6 +21,19 @@ evert defconfig : remove old config (reduce zip file )
 -- Gps fix hal 
 -- Gps blobs update last caf patch
 
+dexk :
+introduce gamerK oc for dexk now
+- unlock 2.3 2.5 --golden unlock 2.0 -- silver
+new undervolt for oc
+2.3 reduce 20mv 
+2.5 reduce 10mv
+2.2 reduce 40mv
+silver
+2.0 reduce 10mv
+gpu :
+gpu remove uv and introduce oc [775mhz] 
+(experimental)
+
 
 
 #30/05/2020 (share)
