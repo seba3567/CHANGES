@@ -30,9 +30,48 @@ new undervolt for oc
 2.2 reduce 40mv
 silver
 2.0 reduce 10mv
-gpu :
-gpu remove uv and introduce oc [775mhz] 
-(experimental)
+kernel: introduce CPUSets Assist
+random: squash update
+ANDROID: ARM64: smp: disable preempt in backtracing across all cores
+sched: Increase the time a task is considered cache-hot
+msm: camera: boost CPU for 100ms on camera focus
+msm: camera: add devfreq boost on focus
+drivers: char: mem: Reroute random fops to urandom
+kernel/fork: kick max cpu when userspace launches an app
+mm: Boost when memory pressure becomes high
+drivers: of: increase MAX_RESERVED_REGIONS to 32
+disable tracing/logging
+cpuidle:lpm: Fix div by zero bug
+mm, vmstat: Add likelihood labels to quiet_vmstat conditions
+devfreq: msm_adreno_tz: Decrease busy time ceiling
+schedutil: remove tracing
+remove freq default in dt
+fs: Reduce cache pressure
+msm: camera: ois: Prevent direct access to userspace memories
+dexk.boost to dexk.onfire
+kernel: Use task struct instead of pid to check for zygote 
+perf: Restrict perf event sampling CPU time to 5%
+kernel: Boost all CPUs to the max when userspace launches an app
+exec: Extend task_is_booster check to cover OxygenOS userspace HALs
+exec: Add node tampering blacklist function
+PM / core: Add support to skip power management in device/driver model
+msm: mdss: reduce autosuspend delay to 50 ms
+msm: kgsl: Dispatch commands using a master kthread
+f2fs set support to new random implement
+PM / devfreq: Skip status update on uninitialized previous_freq
+mdss,adreno: move to async probe
+uid_sys_stats: Remove dependency on the profiling subsystem
+memory_state_time: Remove dependency on profiling support
+profiling: Implement a simple task exit notifier when disabled
+ctl fix kernel panic in oc gpu 
+oc gpu remove it
+qcom-cpufreq: Limit the rate of CPU clock-rate changes
+msm_thermal: ignore sensor -517 , -19
+cpuidle: Allow enforcing deepest idle state selection
+schedutil: enforce realtime priority
+mm: slab: free kmem_cache_node after destroy sysfs file
+mm/slub.c: replace kick_all_cpus_sync() with synchronize_sched() in kmem_cache_shrink()
+devfreq: Avoid competing with low-priority tasks
 
 
 
