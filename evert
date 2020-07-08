@@ -34,6 +34,9 @@ sync: Don't debug everything by default
 lib: Remove DEBUG_KERNEL dependency from SCHED_DEBUG and SCHEDSTATS
 soc: qcom: spcom: Fix spcom_register_chardev() section mismatch
 msm: vidc: Disable msm_vidc_fw_debug_mode
+ext4 improve performance improve io
+wifi improve performance (reduce latency)
+rework f2fs improve io
 mm: Don't stop kswapd on a per-node basis when there are no waiters
 irq: Silence IRQ CPU migration message
 wireless-regdb: Add 5 Ghz rules for Kazakhstan (KZ)
