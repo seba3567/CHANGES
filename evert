@@ -23,6 +23,41 @@ evert defconfig : remove old config (reduce zip file )
 
 dexk :
 introduce gamerK oc for dexk now
+time: move frequently used functions to headers and declare them inline
+devfreq: Use busy cycles only for GPU bandwidth decisions
+devfreq: Weight stall cycles more for GPU bus DCVS
+qseecom: Add empty functions to allow disable
+mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update()
+soc: qcom: glink: Disable debug
+diag: disable DIAG_DEBUG
+sync: Don't debug everything by default
+lib: Remove DEBUG_KERNEL dependency from SCHED_DEBUG and SCHEDSTATS
+soc: qcom: spcom: Fix spcom_register_chardev() section mismatch
+msm: vidc: Disable msm_vidc_fw_debug_mode
+mm: Don't stop kswapd on a per-node basis when there are no waiters
+irq: Silence IRQ CPU migration message
+wireless-regdb: Add 5 Ghz rules for Kazakhstan (KZ)
+block: Disable preemption during IPI consideration
+tcp: Disable syncookies
+tcp: Disable timestamps
+tcp: fastopen: Enable cookieless TFO clients and servers 
+nohz_full: Require cpufreq time accounting to be disabled
+drivers: cpufreq: Remove performance cpu governor dependancy
+arm64: Don't force FRAME_POINTER
+asm-generic: define __WARN if BUG is disabled
+sm-generic: define __WARN_printf if BUG is disabled
+ip: process in-order fragments efficiently
+block: Allow noop to be disabled
+zram: try to avoid worst-case scenario on same element pages
+lib/string.c: add multibyte memset functions
+drivers/block/zram/zram_drv.c: convert to using memset_l
+ARM: implement memset32 & memset64
+mm/page_alloc.c: free order-0 pages through PCP in page_frag_free()
+mm: shuffle GFP_* flags
+PM / wakeup: Fix error when CONFIG_QCOM_SHOW_RESUME_IRQ not defined
+mm: process_reclaim: Bump maximum pages per reclaim attempt
+mm: process_reclaim: Enable vmpressure reclaim by default
+mm, page_alloc: double zone's batchsize
 - unlock 2.3 2.5 --golden unlock 2.0 -- silver
 new undervolt for oc
 2.3 reduce 20mv 
