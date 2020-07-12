@@ -2,7 +2,7 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 07/7/2020 (private build) (4:40)
+# 11/7/2020 (private build) (10:50)(cl)
 fix zygote memory leak 
 no build snap or camera2 I like gcam ,no like snap :C
 [reduce zip size]
@@ -27,6 +27,23 @@ time: move frequently used functions to headers and declare them inline
 devfreq: Use busy cycles only for GPU bandwidth decisions
 devfreq: Weight stall cycles more for GPU bus DCVS
 qseecom: Add empty functions to allow disable
+change io , anxiety IO default
+SYSTEM_OTHER_ODEX for Dexpreopt
+Add RRO Target flag for falcon_64
+perf hal uprev 2.0-2.1 in manifest
+data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
+IMS: Enable IMS feature flags for supported carriers
+drivers: misc: qcom: qdsp6v2: Allow 320K AAC encoding
+sound: soc: codecs: wcd9335: Disable debug
+sound: soc: codecs: wcd9335: Enhance SLimbus CLK Gear
+sdm630 mmap support default
+Make Ion allocate in page-sized chunks
+lmk: import rbtree changes from Motorola
+fork: Decrease app launch boost duration
+kernel/fork: kick max cpu when userspace launches an app
+Make app_launch_boost_ms tunable
+kernel: Disable energy aware when userspace launches an app
+ kernel: Boost DDR to max when userspace launches an app
 mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update()
 soc: qcom: glink: Disable debug
 diag: disable DIAG_DEBUG
