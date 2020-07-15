@@ -2,7 +2,7 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 11/7/2020 (private build) (10:50)(cl)
+# 15/7/2020 (private build) (15:39)(cl)
 fix zygote memory leak 
 no build snap or camera2 I like gcam ,no like snap :C
 [reduce zip size]
@@ -29,6 +29,7 @@ devfreq: Weight stall cycles more for GPU bus DCVS
 qseecom: Add empty functions to allow disable
 change io , anxiety IO default
 SYSTEM_OTHER_ODEX for Dexpreopt
+dexk evert: build drm total driver
 Add RRO Target flag for falcon_64
 perf hal uprev 2.0-2.1 in manifest
 data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
