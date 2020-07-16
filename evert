@@ -6,6 +6,23 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 fix zygote memory leak 
 no build snap or camera2 I like gcam ,no like snap :C
 [reduce zip size]
+msm: mdss: Fix potential buffer overflow
+soc: qcom: spcom: Fix spcom_register_chardev() section mismatch 
+msm: sps: Fix uninitialized result usage when an invalid IRQ is foundmm: 
+Implement minimum bound for performing readahead
+mm: Do readahead if requested size is over 64 KiB 
+alarmtimers: Don't fail on wakeup
+tcp: Enable ECN negotiation by default 
+cpuidle: don't disable cpuidle when entering suspend 
+qos: Don't allow userspace to impose restrictions on CPU idle levels
+mm: kmemleak: Don't require global debug options
+msm: pcie: Fix uninitialized pointer usage in msm_pcie_debug_info()
+crypto: qce50: Init sg don't just add pages to it 
+android: binder: Rate-limit debug and userspace triggered err msgs 
+build missing defconfig for userspace
+binfmt_elf: Don't allocate memory dynamically in load_elf_binary
+qcacld-3.0: Enable debugfs usage for evert
+soc: qcom: system_stats: Enable debugfs usage for evert
 update fx sound from lake last build
 update vendor gpu drivers
 f2fs fix rare spam in dmesg in f2fs /data (cause rare spam in kernel)
