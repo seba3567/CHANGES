@@ -2,7 +2,7 @@ motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: act
 
 
 
-# 15/7/2020 (private build) (15:39)(cl)
+# 16/7/2020 (private build) (01:06)(cl)
 fix zygote memory leak 
 no build snap or camera2 I like gcam ,no like snap :C
 [reduce zip size]
