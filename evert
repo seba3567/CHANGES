@@ -1,4 +1,4 @@
-motorola moto g6 plus : sdm630  socket : sdm660   punch api (oreo)   status: active     
+motorola moto g6 plus : sdm630  socket / msm8998 : sdm660   punch api (oreo)   status: active     
 
 
 
@@ -56,6 +56,12 @@ devfreq: Weight stall cycles more for GPU bus DCVS
 qseecom: Add empty functions to allow disable
 change io , anxiety IO default
 SYSTEM_OTHER_ODEX for Dexpreopt
+prepare dexk oc for gpu
+
+prepare 875 (no active)
+prepare 775 (no active)
+
+remap 647 to 648
 dexk evert: build drm total driver
 Add RRO Target flag for falcon_64
 perf hal uprev 2.0-2.1 in manifest
