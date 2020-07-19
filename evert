@@ -12,6 +12,16 @@ msm: sps: Fix uninitialized result usage when an invalid IRQ is foundmm:
 Implement minimum bound for performing readahead
 mm: Do readahead if requested size is over 64 KiB 
 alarmtimers: Don't fail on wakeup
+introduce
+1.9 for silver
+2.4 for golden
+--------------
+2.2 increase 0.4 mv
+2.3 increase 0.9 mv
+2.5 increase 0.12 mv
+= best stable
+reduce total undervolt
+to 102mv to 70mv
 tcp: Enable ECN negotiation by default 
 cpuidle: don't disable cpuidle when entering suspend 
 qos: Don't allow userspace to impose restrictions on CPU idle levels
